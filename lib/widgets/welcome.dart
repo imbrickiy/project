@@ -4,10 +4,10 @@ class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});
 
   @override
-  _WelcomePageState createState() => _WelcomePageState();
+  WelcomePageState createState() => WelcomePageState();
 }
 
-class _WelcomePageState extends State<WelcomePage> {
+class WelcomePageState extends State<WelcomePage> {
   // TODO: Add text editing controllers (101)
 
   @override
